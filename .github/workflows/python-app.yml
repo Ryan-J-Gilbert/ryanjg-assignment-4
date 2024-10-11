@@ -35,4 +35,4 @@ jobs:
     - name: Run the application with Makefile
       run: |
         make run &
-        sleep 5  # Allow server to start up
+        sleep 10  # Allow server to start up
